@@ -1,0 +1,22 @@
+1  2  3  4
+5  6  7  8
+9  10 11 12
+13 14 15 16
+
+matrix (m, n)
+
+i = 0
+for each j = 0, j < m.cols j++ :
+  print (m[i,j])
+
+for each i = 1, i < m.rows i++ :
+  print (m[i,j])
+
+
+1 2 3 4 8 12 16
+
+
+
+  if m.max:
+  for each j in n:
+    print (m[i],n[j])
